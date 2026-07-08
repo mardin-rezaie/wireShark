@@ -52,7 +52,7 @@ By applying the `http` filter in the Wireshark filter bar, the GET request packe
 
 * Source IP: 192.168.167.222
 * Destination IP: 34.223.124.45
-
+**1**
 > !\[alt text](./screenshots/2-1.png)
 
 > !\[alt text](./screenshots/2-2.png)
