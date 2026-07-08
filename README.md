@@ -52,12 +52,12 @@ By applying the `http` filter in the Wireshark filter bar, the GET request packe
 
 * Source IP: 192.168.167.222
 * Destination IP: 34.223.124.45
-**1**
-> !\[alt text](./screenshots/2-1.png)
 
-> !\[alt text](./screenshots/2-2.png)
+> ![alt text](./screenshots/2-1.png)
 
-> !\[alt text](./screenshots/2-3.png)
+> ![alt text](./screenshots/2-2.png)
+
+> ![alt text](./screenshots/2-3.png)
 
 
 
@@ -77,9 +77,9 @@ The `200 OK` status code received in the server's response belongs to the succes
 
 In this session, the server responded to the GET request with a `200 OK` status code, indicating successful delivery of the requested content without any errors or redirects. The Time Delta between sending the GET request and receiving this response was 0.2550982 seconds (255.0982 milliseconds), a value that is quite low and falls within the normal range for a healthy HTTP connection. If this value had exceeded the 2-second threshold, there would have been three likely sources of the delay: (1) network latency between the client and server, caused by long routing paths or bandwidth congestion; (2) heavy processing on the server side, such as expensive database queries or high application load; or (3) resource constraints on the client side. Given that in our actual session the server responded with a successful 200 code in under one-third of a second, it can be concluded that neither the network nor the server experienced any performance issues, and the connection was in an excellent state in terms of latency.
 
-> !\[alt text](./screenshots/3-1.png)
+> ![alt text](./screenshots/3-1.png)
 
-> !\[alt text](./screenshots/3-3.png)
+> ![alt text](./screenshots/3-3.png)
 
 
 
