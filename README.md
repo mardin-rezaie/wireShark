@@ -6,7 +6,7 @@
 |-|-|-|
 |Mardin Rezaie|40217023136|Phase 1, Phase 2, Phase 3|
 
-\----
+---
 
 ## Team Information
 
@@ -14,7 +14,7 @@
 |-|-|-|-|
 |Mardin|Rezaie|40217023136|Packet capture, header analysis, RTT analysis, and documentation|
 
-\----
+---
 
 ## Step-by-Step Report
 
@@ -30,7 +30,7 @@ This site was specifically chosen because it never redirects traffic to HTTPS, w
 
 After the complete response was received in the terminal, the capture was stopped and the final file was saved in `.pcapng` format under the `captures/` directory.
 
-\---
+---
 
 ### Phase 2: Header Dissection and Protocol Stack
 
@@ -61,7 +61,7 @@ By applying the `http` filter in the Wireshark filter bar, the GET request packe
 
 
 
-\---
+---
 
 ### Phase 3: Server Behavior and RTT Timing Analysis
 
@@ -83,7 +83,7 @@ In this session, the server responded to the GET request with a `200 OK` status 
 
 
 
-\---
+---
 
 ## Appendices
 
@@ -93,7 +93,7 @@ The actual capture file for this session is located at:
 captures/1.pcapng
 ```
 
-\---
+---
 
 
 
